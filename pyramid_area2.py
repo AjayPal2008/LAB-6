@@ -13,10 +13,12 @@
 #Enter side length and the number of layers
 side_length = float(input("Enter the side length in meters: "))
 layers = int(input("Enter the number of layers: "))
+
 #Enter an equation that gives the surface area
 side_area = side_length**2
 x = layers*side_length
 surface_area = 3*(x**2)+2*x
+
 #Print final statement
 if side_length <= 0 or layers <= 0:
     print("A number entered is invalid!")
