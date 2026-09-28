@@ -11,7 +11,7 @@
 # Date:         27 September 2026
 
 #Enter side length and the number of layers
-side_length = int(input("Enter the side length in meters: "))
+side_length = float(input("Enter the side length in meters: "))
 layers = int(input("Enter the number of layers: "))
 #Enter an equation that gives the surface area
 side_area = side_length**2
