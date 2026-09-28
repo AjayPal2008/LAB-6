@@ -21,4 +21,4 @@ surface_area = 3*(x**2)+2*x
 if side_length <= 0 or layers <= 0:
     print("A number entered is invalid!")
 else:
-    print(f"You need {surface_area: .2f} m^2 of gold foil to cover the pyramid")
+    print(f"You need {surface_area:.2f} m^2 of gold foil to cover the pyramid")
