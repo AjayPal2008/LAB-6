@@ -17,8 +17,6 @@ layers = int(input("Enter the number of layers: "))
 if side_length <= 0 or layers <= 0:
     print("A number entered is invalid!")
 else:
-    side_area = side_length**2
-    x = layers*side_length
-    surface_area = 3*(x**2)+2*x
+    s_a = side_length**2 * layers * ((3*layers) + 2)
     # Print final statement
-    print(f"You need {surface_area:.2f} m^2 of gold foil to cover the pyramid")
+    print(f"You need {s_a:.2f} m^2 of gold foil to cover the pyramid")
