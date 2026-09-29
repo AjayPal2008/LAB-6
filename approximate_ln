@@ -1,0 +1,38 @@
+# By submitting this assignment, I agree to the following:
+#   "Aggies do not lie, cheat, or steal, or tolerate those who do."
+#   "I have not given or received any unauthorized aid on this assignment."
+#
+# Names:        Micah Kadiri
+#               Benjamin Hatch
+#               Ajay Palanisamy
+#               Hudson Dobbs
+# Section:      508
+# Assignment:   Lab Topic 6 (Team)
+# Date:         27 September 2026
+#
+
+from math import *
+
+x = float(input("Enter a value for x: "))
+
+while not 0<x<=2:
+    x = float(input("Out of range! Try again: "))
+
+t = float(input("Enter the tolerance: ")) 
+
+approx = 0.0
+n = 1
+while True:
+	term = (x - 1) ** n / n
+	if n % 2 == 0:
+		term = -term
+	if abs(term) < t:
+		break
+	approx += term
+	n += 1
+# Final display of code
+act = log(x)
+diff = abs(approx - act)
+print (f"ln({x}) is approximately",approx)
+print (f"ln({x}) is exactly",act)
+print(f"The difference is",diff)
