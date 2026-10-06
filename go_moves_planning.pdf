@@ -1,0 +1,45 @@
+0> Diplay whenelcome message
+1>we will use a 9 by 9 matrix to  track everypossible position where stons can be placed.
+2>we will assign black stone with O and white stones with X to ensure clear distinction
+3>The 9 by 9 matrix ( A list with lists inside ) will initially have . in all locations to indicate placeholder characters
+4> The user will be displayed an ASCII generated board whoose contents will be filled using the Matrixe's elements
+Example: Top Corner 3X3 segment of full 9X9 board
+[[.,.,.],[.,.,.],[O,X,.]]  <---- stored in memory
+_____________
+|_._|_._|_._|          <---- displayed to player
+_____________
+|_._|_._|_._|
+_____________
+|_O_|_X_|_._|
+
+5>When run the player will be prompted to eneter a row and column value respectively, this input will be used to triangulate the exact location
+
+#Ask user to enter coordinates
+#Check if in bounds
+#if not tell user to enter in bounds
+#Check if the location entered is occupied
+#if occupied, ask user to enter again
+#if not change the double list to include the element
+
+6>By default the first player will be considered Black and the second player will be considered White, This will be kept track by using  a counter variable which will increment in value, when the value is odd it will be Black's turn and when it is even it will be White's and so on
+
+#counter value set to 1
+#perform one iteration
+#increment counter
+#compare the counter's parity
+#Assign color
+#Check if user enters stop
+#if not proceed to next iteration
+#if stop is entered quit
+
+7> The game ends when the board is full or when any player enter stop.
+
+#Ask if player wants to continue placing or enter stop
+#Accept user input
+#Check if input equal stop
+#if not continue accepting coordinates turn wise
+#Ask next player
+#if any input equals stop end game
+
+8>Finally display output and show end screen
+
