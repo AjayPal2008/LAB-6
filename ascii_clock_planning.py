@@ -75,6 +75,10 @@ else:
 
 # Combine hours, colon separator, minutes, and AM/PM into one string
 Connector = hours + ":" + minutes + AMorPM
+
+# Add a blank line here to separate inputs from the ASCII output
+print()
+
 # Loop through each of the 5 vertical rows of the ASCII display
 for row in range(5):
     print(" ".join(clock_ASCII(char, digit)[row] for digit in Connector))
