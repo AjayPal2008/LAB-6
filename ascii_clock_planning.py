@@ -2,7 +2,10 @@
 # "Aggies do not lie, cheat, or steal, or tolerate those who do."
 # "I have not given or received any unauthorized aid on this assignment."
 #
-# Name: Ajay P
+# Name: Ajay Palanisamy
+#       Benjamin Hatch
+#       Micah Kadiri
+#       Hudson Dobbs
 # Section: ENGR 102 508
 # Assignment: LAB 3
 # Date: 10/16/2026
