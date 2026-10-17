@@ -7,7 +7,7 @@
 #       Micah Kadiri
 #       Hudson Dobbs
 # Section: ENGR 102 508
-# Assignment: LAB 3
+# Assignment: LAB 8
 # Date: 10/16/2026
 
 
